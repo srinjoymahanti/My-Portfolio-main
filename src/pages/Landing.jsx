@@ -79,7 +79,7 @@ export default function Landing() {
           
           <div className="w-full h-[200px] md:h-[300px] relative">
              <TextPressure
-                text="SHAHZAMAN"
+                text="SRINJOYMAHANTI"
                 flex={true}
                 alpha={false}
                 stroke={false}
