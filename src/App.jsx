@@ -20,7 +20,7 @@ const App = () => {
       {showLoader ? (
         <Loader onFinish={() => setShowLoader(false)} />
       ) : (
-        <div className="bg-[#0F0005] min-h-screen text-white selection:bg-[#ff2239] selection:text-white">
+        <div className="bg-[#0F0005] min-h-screen text-white selection:bg-[#00d4ff] selection:text-white">
           <Navbar onHireMeClick={() => setIsContactOpen(true)} />
           <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
           <main>

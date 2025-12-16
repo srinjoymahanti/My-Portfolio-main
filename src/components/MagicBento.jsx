@@ -555,7 +555,7 @@ const MagicBento = ({
             --glow-intensity: 0;
             --glow-radius: 200px;
             --glow-color: ${glowColor};
-            --border-color: #ff2239;
+            --border-color: #00d4ff;
             --background-dark: #190408;
             --white: hsl(0, 0%, 100%);
           }

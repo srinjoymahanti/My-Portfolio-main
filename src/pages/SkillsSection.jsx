@@ -30,7 +30,7 @@ export default function SkillsSection() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-[12vw] leading-[0.8] font-[anzo1] text-[#ff2239] opacity-20 select-none absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap z-0 pointer-events-none"
+          className="text-[12vw] leading-[0.8] font-[anzo1] text-[#00d4ff] opacity-20 select-none absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap z-0 pointer-events-none"
         >
           EXPERTISE
         </motion.h2>
@@ -102,10 +102,10 @@ function MagneticItem({ text }) {
       transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
       className="relative group cursor-pointer"
     >
-      <div className="text-3xl md:text-4xl font-[anzo1] text-white group-hover:text-[#ff2239] transition-colors duration-300 uppercase">
+      <div className="text-3xl md:text-4xl font-[anzo1] text-white group-hover:text-[#00d4ff] transition-colors duration-300 uppercase">
         {text}
       </div>
-      <div className="h-[1px] w-0 bg-[#ff2239] group-hover:w-full transition-all duration-300" />
+      <div className="h-[1px] w-0 bg-[#00d4ff] group-hover:w-full transition-all duration-300" />
     </motion.div>
   );
 }

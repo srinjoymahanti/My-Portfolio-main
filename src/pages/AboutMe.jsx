@@ -13,7 +13,7 @@ export default function AboutMe() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-[12vw] leading-[0.8] font-[anzo1] text-[#ff2239] opacity-20 select-none absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap z-0 pointer-events-none"
+          className="text-[12vw] leading-[0.8] font-[anzo1] text-[#00d4ff] opacity-20 select-none absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap z-0 pointer-events-none"
         >
           ABOUT ME
         </motion.h2>

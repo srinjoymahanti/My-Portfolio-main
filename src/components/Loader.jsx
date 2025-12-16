@@ -115,7 +115,7 @@ export default function Loader({ onFinish }) {
         </h1>
         <div
           ref={textRef}
-          className="h-8 mt-4 font-[anzo3] text-sm md:text-base uppercase tracking-[0.3em] text-[#ff2239]"
+          className="h-8 mt-4 font-[anzo3] text-sm md:text-base uppercase tracking-[0.3em] text-[#00d4ff]"
         >
           INITIALIZING
         </div>
@@ -124,7 +124,7 @@ export default function Loader({ onFinish }) {
       <div className="w-64 h-[2px] bg-white/10 mt-8 rounded-full overflow-hidden relative z-10">
         <div
           ref={progressRef}
-          className="h-full bg-[#ff2239] w-0 absolute left-0 top-0"
+          className="h-full bg-[#00d4ff] w-0 absolute left-0 top-0"
         />
       </div>
     </div>

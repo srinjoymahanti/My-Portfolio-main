@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 
 // Premium About component
-// Theme: dark (black) with accent #ff2239
+// Theme: dark (black) with accent #00d4ff
 
 export default function PremiumAbout() {
   const rootRef = useRef(null);
@@ -113,14 +113,14 @@ export default function PremiumAbout() {
 
           <div className="mt-4 flex items-center gap-4">
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-              I’m <span className="text-[#ff2239]">Shahzaman</span>,
+              I’m <span className="text-[#00d4ff]">Srinjoy</span>,
               <span className="block font-medium text-gray-300 text-lg sm:text-xl mt-2">a CS student building premium web experiences.</span>
             </h3>
           </div>
 
           <div
             ref={accentRef}
-            className="mt-6 w-28 h-[2px] bg-[#ff2239] origin-left"
+            className="mt-6 w-28 h-[2px] bg-[#00d4ff] origin-left"
             aria-hidden
           />
 
@@ -153,7 +153,7 @@ export default function PremiumAbout() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
               href="#projects"
-              className="inline-flex items-center gap-3 px-5 py-3 bg-[#ff2239] text-black rounded-lg font-semibold shadow-2xl hover:brightness-95 transition"
+              className="inline-flex items-center gap-3 px-5 py-3 bg-[#00d4ff] text-black rounded-lg font-semibold shadow-2xl hover:brightness-95 transition"
             >
               View My Work
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 24 24" fill="none">
@@ -186,7 +186,7 @@ export default function PremiumAbout() {
                 <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="160" height="160" rx="20" fill="#0b0b0b" />
                   <g>
-                    <circle cx="80" cy="56" r="28" fill="#111" stroke="#ff2239" strokeWidth="2" />
+                    <circle cx="80" cy="56" r="28" fill="#111" stroke="#00d4ff" strokeWidth="2" />
                     <rect x="36" y="96" width="88" height="34" rx="8" fill="#111" stroke="#222" />
                     <path d="M44 128c10-8 30-12 52-12s42 4 52 12" stroke="#222" strokeWidth="2" strokeLinecap="round" />
                   </g>
@@ -195,11 +195,11 @@ export default function PremiumAbout() {
               <div className="px-5 py-4 border-t border-white/6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-gray-300">Shahzaman</p>
+                    <p className="text-sm text-gray-300">Srinjoy</p>
                     <p className="text-xs text-gray-500 mt-1">CS Student • Frontend & Motion</p>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm font-semibold text-[#ff2239]">Available</p>
+                    <p className="text-sm font-semibold text-[#00d4ff]">Available</p>
                     <p className="text-xs text-gray-500">for freelance</p>
                   </div>
                 </div>
@@ -207,7 +207,7 @@ export default function PremiumAbout() {
             </div>
           </div>
           {/* Decorative floating accent */}
-          <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full mix-blend-screen opacity-25 animate-pulse" style={{ background: 'radial-gradient(circle at 30% 30%, #ff2239, transparent 40%)' }} />
+          <div className="absolute -right-12 -top-12 w-48 h-48 rounded-full mix-blend-screen opacity-25 animate-pulse" style={{ background: 'radial-gradient(circle at 30% 30%, #00d4ff, transparent 40%)' }} />
         </motion.div>
       </div>
     </section>

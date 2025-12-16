@@ -28,14 +28,14 @@ const ContactModal = ({ isOpen, onClose }) => {
                                           {/* Close Button */}
                                           <button
                                                 onClick={onClose}
-                                                className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-[#ff2239] hover:text-white transition-colors duration-300 z-10"
+                                                className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-[#00d4ff] hover:text-white transition-colors duration-300 z-10"
                                           >
                                                 <X size={20} />
                                           </button>
 
                                           <div className="flex flex-col md:flex-row h-full">
                                                 {/* Left Side: Info (Hidden on mobile for compactness or kept for style) */}
-                                                <div className="hidden md:flex w-1/3 bg-[#ff2239]/5 p-8 flex-col justify-between border-r border-white/5">
+                                                <div className="hidden md:flex w-1/3 bg-[#00d4ff]/5 p-8 flex-col justify-between border-r border-white/5">
                                                       <div>
                                                             <h3 className="text-2xl font-[anzo1] text-white mb-2">Let's Talk</h3>
                                                             <p className="text-white/60 text-sm font-light leading-relaxed">
@@ -82,7 +82,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                                                                               type="text"
                                                                               required
                                                                               placeholder="John Doe"
-                                                                              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#ff2239] focus:bg-white/10 transition-all duration-300"
+                                                                              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#00d4ff] focus:bg-white/10 transition-all duration-300"
                                                                         />
                                                                   </div>
                                                                   <div className="space-y-2">
@@ -92,7 +92,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                                                                               type="email"
                                                                               required
                                                                               placeholder="john@example.com"
-                                                                              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#ff2239] focus:bg-white/10 transition-all duration-300"
+                                                                              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#00d4ff] focus:bg-white/10 transition-all duration-300"
                                                                         />
                                                                   </div>
                                                             </div>
@@ -104,7 +104,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                                                                         type="text"
                                                                         required
                                                                         placeholder="Project Inquiry"
-                                                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#ff2239] focus:bg-white/10 transition-all duration-300"
+                                                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#00d4ff] focus:bg-white/10 transition-all duration-300"
                                                                   />
                                                             </div>
 
@@ -115,13 +115,13 @@ const ContactModal = ({ isOpen, onClose }) => {
                                                                         required
                                                                         rows={4}
                                                                         placeholder="Tell me about your project..."
-                                                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#ff2239] focus:bg-white/10 transition-all duration-300 resize-none"
+                                                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/20 focus:outline-none focus:border-[#00d4ff] focus:bg-white/10 transition-all duration-300 resize-none"
                                                                   />
                                                             </div>
 
                                                             <button
                                                                   type="submit"
-                                                                  className="w-full bg-white text-black font-[anzo3] font-bold py-4 rounded-xl hover:bg-[#ff2239] hover:text-white transition-all duration-300 flex items-center justify-center gap-2 group"
+                                                                  className="w-full bg-white text-black font-[anzo3] font-bold py-4 rounded-xl hover:bg-[#00d4ff] hover:text-white transition-all duration-300 flex items-center justify-center gap-2 group"
                                                             >
                                                                   <span>Send Message</span>
                                                                   <Send size={16} className="group-hover:translate-x-1 transition-transform duration-300" />

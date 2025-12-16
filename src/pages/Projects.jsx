@@ -44,10 +44,10 @@ const projects = [
 const ProjectCard = ({ project }) => {
       return (
             <motion.div
-                  className="group relative flex flex-col gap-4 p-6 rounded-[20px] bg-white/5 border border-white/10 backdrop-blur-sm hover:border-[#ff2239]/50 transition-colors duration-500 overflow-hidden w-[85vw] md:w-[600px] h-[70vh] md:h-[600px] flex-shrink-0"
+                  className="group relative flex flex-col gap-4 p-6 rounded-[20px] bg-white/5 border border-white/10 backdrop-blur-sm hover:border-[#00d4ff]/50 transition-colors duration-500 overflow-hidden w-[85vw] md:w-[600px] h-[70vh] md:h-[600px] flex-shrink-0"
             >
                   {/* Hover Gradient Glow */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#ff2239]/0 to-[#ff2239]/0 group-hover:from-[#ff2239]/5 group-hover:to-transparent transition-all duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#00d4ff]/0 to-[#00d4ff]/0 group-hover:from-[#00d4ff]/5 group-hover:to-transparent transition-all duration-500" />
 
                   {/* Image Container */}
                   <div className="w-full h-auto aspect-video md:aspect-auto md:h-[60%] rounded-xl bg-white/5 relative overflow-hidden group-hover:scale-[1.02] transition-transform duration-500">
@@ -71,7 +71,7 @@ const ProjectCard = ({ project }) => {
 
                   <div className="flex flex-col gap-4 relative z-10 flex-1">
                         <div className="flex justify-between items-start">
-                              <h3 className="text-3xl md:text-4xl font-[anzo1] text-white group-hover:text-[#ff2239] transition-colors duration-300">
+                              <h3 className="text-3xl md:text-4xl font-[anzo1] text-white group-hover:text-[#00d4ff] transition-colors duration-300">
                                     {project.title}
                               </h3>
                               <div className="flex gap-3">
@@ -136,9 +136,9 @@ const Projects = () => {
                               className="absolute top-10 left-6 md:left-20 z-10 pointer-events-none"
                         >
                               <h2 className="text-[10vw] md:text-[6vw] font-[anzo1] leading-[0.9] text-white uppercase tracking-tighter">
-                                    Selected <span className="text-[#ff2239]">Works</span>
+                                    Selected <span className="text-[#00d4ff]">Works</span>
                               </h2>
-                              <div className="h-1 w-24 bg-[#ff2239] mt-4" />
+                              <div className="h-1 w-24 bg-[#00d4ff] mt-4" />
                         </motion.div>
 
                         {/* Horizontal Scroll Container */}
@@ -155,7 +155,7 @@ const Projects = () => {
                         <div className="absolute bottom-10 left-6 md:left-20 right-6 md:right-20 h-1 bg-white/10 rounded-full overflow-hidden">
                               <motion.div
                                     style={{ width: progressWidth }}
-                                    className="h-full bg-[#ff2239]"
+                                    className="h-full bg-[#00d4ff]"
                               />
                         </div>
                   </div>

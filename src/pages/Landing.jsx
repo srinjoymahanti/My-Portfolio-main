@@ -72,14 +72,14 @@ export default function Landing() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
-            className="text-xl md:text-2xl font-[anzo1] uppercase text-[#ff2239] mb-4 tracking-widest"
+            className="text-xl md:text-2xl font-[anzo1] uppercase text-[#00d4ff] mb-4 tracking-widest"
           >
             Seamless ✦ Effortless ✦ Infinite
           </motion.h4>
           
           <div className="w-full h-[200px] md:h-[300px] relative">
              <TextPressure
-                text="SHAHZAMAN"
+                text="SRINJOYMHANTI"
                 flex={true}
                 alpha={false}
                 stroke={false}

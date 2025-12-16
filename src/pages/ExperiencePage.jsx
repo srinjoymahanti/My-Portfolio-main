@@ -12,7 +12,7 @@ const experiences = [
     description:
       "Started the journey into digital craftsmanship. Prototyped micro-interactions and assisted in building responsive layouts for e-commerce clients. Specialized in GSAP animations and performance optimization.",
     tags: ["React", "GSAP", "System Architecture", "Internship"],
-    color: "#ff2239",
+    color: "#00d4ff",
   },
   {
     company: "HACK8ON 1.0",
@@ -63,7 +63,7 @@ export default function ExperiencePage() {
             scale: [1, 1.2, 1]
           }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#ff2239]/10 rounded-full blur-[120px]"
+          className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#00d4ff]/10 rounded-full blur-[120px]"
         />
         <motion.div
           animate={{
@@ -83,7 +83,7 @@ export default function ExperiencePage() {
             style={{ opacity: useTransform(scrollYProgress, [0, 0.2], [1, 0]) }}
             className="text-[12vw] md:text-[8vw] leading-[0.9] font-[anzo1] text-white uppercase tracking-tighter text-center"
           >
-            My <span className="text-[#ff2239]">Experience</span>
+            My <span className="text-[#00d4ff]">Experience</span>
           </motion.h2>
         </div>
 

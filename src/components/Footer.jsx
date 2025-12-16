@@ -13,12 +13,12 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="flex-1">
             <h2 className="text-[10vw] lg:text-[7vw] leading-[0.8] font-[anzo1] text-white uppercase tracking-tighter mb-8">
-              Let's create <br /> <span className="text-[#ff2239]">something epic</span>
+              Let's create <br /> <span className="text-[#00d4ff]">something epic</span>
             </h2>
             <div className="flex flex-wrap gap-4">
               <a
                 href="mailto:faisalshahzaman8@gmail.com"
-                className="px-8 py-4 rounded-full bg-white text-black font-[anzo3] text-lg flex items-center gap-3 hover:bg-[#ff2239] hover:text-white transition-all duration-300"
+                className="px-8 py-4 rounded-full bg-white text-black font-[anzo3] text-lg flex items-center gap-3 hover:bg-[#00d4ff] hover:text-white transition-all duration-300"
               >
                 <span>faisalshahzaman8@gmail.com</span>
                 <ArrowUpRight size={20} />
@@ -54,7 +54,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-            <h3 className="text-2xl font-[anzo1] text-white">SHAHZAMAN</h3>
+            <h3 className="text-2xl font-[anzo1] text-white">SRINJOY</h3>
             <span className="text-white/40 text-sm">© {new Date().getFullYear()}</span>
           </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
             className="group flex items-center gap-2 text-white/60 hover:text-white transition-colors"
           >
             <span className="uppercase text-sm tracking-widest">Back to top</span>
-            <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-[#ff2239] group-hover:border-[#ff2239] transition-all">
+            <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-[#00d4ff] group-hover:border-[#00d4ff] transition-all">
               <ArrowUp size={16} />
             </div>
           </button>
@@ -71,15 +71,15 @@ export default function Footer() {
       </div>
 
       {/* Background Gradient Mesh */}
-      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#ff2239]/5 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#00d4ff]/5 to-transparent pointer-events-none" />
     </footer>
   );
 }
 
 function SocialLink({ href, label }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#ff2239] transition-colors flex items-center gap-2 group">
-      <span className="w-0 overflow-hidden group-hover:w-4 transition-all duration-300 opacity-0 group-hover:opacity-100 text-[#ff2239]">→</span>
+    <a href={href} target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#00d4ff] transition-colors flex items-center gap-2 group">
+      <span className="w-0 overflow-hidden group-hover:w-4 transition-all duration-300 opacity-0 group-hover:opacity-100 text-[#00d4ff]">→</span>
       {label}
     </a>
   );
