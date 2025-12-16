@@ -14,12 +14,12 @@ export default function SkillsSection() {
       items: ["React", "Next.js", "TypeScript", "Tailwind", "Three.js"],
     },
     {
-      title: "Motion",
-      items: ["GSAP", "Framer Motion", "WebGL", "Lottie", "Canvas"],
+      title: "Backend",
+      items: ["Node.js", "Express", "MySQL", "MongoDB", "Prisma"],
     },
     {
-      title: "Backend",
-      items: ["Node.js", "Express", "PostgreSQL", "Supabase", "Prisma"],
+      title: "Languages",
+      items: ["C", "Java", "Python", "JavaScript"],
     },
   ];
 

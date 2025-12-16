@@ -51,18 +51,18 @@ const cardData = [
       {
         icon: "github",
         text: "GitHub",
-        link: "https://github.com/Shahzaman3",
+        link: "https://github.com/srinjoymahanti",
       },
       {
         icon: "linkedin",
         text: "LinkedIn",
         link: "https://www.linkedin.com/in/shahzaman-faisal-b937b2287/",
       },
-      { icon: "twitter", text: "X", link: "https://x.com/Shahahahzaman" },
+      { icon: "twitter", text: "X", link: "https://x.com/srinjoymahanti" },
       {
         icon: "instagram",
         text: "Instagram",
-        link: "https://instagram.com/shahzaman_.23",
+        link: "https://instagram.com/srinjoymahanti",
       },
     ],
   },

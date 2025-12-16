@@ -7,45 +7,64 @@ import { ChevronDown } from "lucide-react";
 export default function Landing() {
   return (
     <div className="relative h-screen w-full overflow-hidden bg-[#0F0005]">
-      <Hyperspeed
-        effectOptions={{
-          onSpeedUp: () => {},
-          onSlowDown: () => {},
-          distortion: "mountainDistortion",
-          length: 400,
-          roadWidth: 9,
-          islandWidth: 2,
-          lanesPerRoad: 3,
-          fov: 90,
-          fovSpeedUp: 150,
-          speedUp: 2,
-          carLightsFade: 0.4,
-          totalSideLightSticks: 50,
-          lightPairsPerRoadWay: 50,
-          shoulderLinesWidthPercentage: 0.05,
-          brokenLinesWidthPercentage: 0.1,
-          brokenLinesLengthPercentage: 0.5,
-          lightStickWidth: [0.12, 0.5],
-          lightStickHeight: [1.3, 1.7],
-          movingAwaySpeed: [60, 80],
-          movingCloserSpeed: [-120, -160],
-          carLightsLength: [400 * 0.05, 400 * 0.15],
-          carLightsRadius: [0.05, 0.14],
-          carWidthPercentage: [0.3, 0.5],
-          carShiftX: [-0.2, 0.2],
-          carFloorSeparation: [0.05, 1],
-          colors: {
-            roadColor: 0x080808,
-            islandColor: 0x0a0a0a,
-            background: 0x000000,
-            shoulderLines: 0x131318,
-            brokenLines: 0x131318,
-            leftCars: [0xff102a, 0xeb383e, 0xff102a],
-            rightCars: [0xdadafa, 0xbebae3, 0x8f97e4],
-            sticks: 0xdadafa,
-          },
-        }}
-      />
+      {<Hyperspeed
+  effectOptions={{
+    onSpeedUp: () => {},
+    onSlowDown: () => {},
+
+    distortion: "mountainDistortion",
+
+    length: 600,
+    roadWidth: 9,
+    islandWidth: 2,
+    lanesPerRoad: 4,
+
+    // ⚡ Extreme speed & zoom
+    fov: 95,
+    fovSpeedUp: 180,
+    speedUp: 3.2,
+
+    carLightsFade: 0.25,
+
+    totalSideLightSticks: 90,
+    lightPairsPerRoadWay: 90,
+
+    shoulderLinesWidthPercentage: 0.06,
+    brokenLinesWidthPercentage: 0.12,
+    brokenLinesLengthPercentage: 0.65,
+
+    lightStickWidth: [0.15, 0.55],
+    lightStickHeight: [1.5, 2.2],
+
+    // 🚀 INSANE motion
+    movingAwaySpeed: [120, 180],
+    movingCloserSpeed: [-260, -340],
+
+    carLightsLength: [600 * 0.12, 600 * 0.25],
+    carLightsRadius: [0.08, 0.18],
+
+    carWidthPercentage: [0.45, 0.65],
+    carShiftX: [-0.3, 0.3],
+    carFloorSeparation: [0.02, 0.6],
+
+    colors: {
+      roadColor: 0x050507,
+      islandColor: 0x0a0a12,
+      background: 0x000000,
+      shoulderLines: 0x1f1fff,
+      brokenLines: 0x1f1fff,
+
+      // 🔴 Neon red traffic
+      leftCars: [0xff003c, 0xff1a5e, 0xff4d7a],
+
+      // 🔵 Neon blue traffic
+      rightCars: [0x00e5ff, 0x4dd2ff, 0x7fdaff],
+
+      // ✨ Cyberpunk light sticks
+      sticks: 0x8b9cff,
+    },
+  }}
+/>}
 
       <div className="absolute inset-0 flex flex-col justify-center items-center z-10 pointer-events-none">
         <div className="w-full max-w-7xl px-6 flex flex-col items-start">
