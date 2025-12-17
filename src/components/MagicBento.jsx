@@ -19,7 +19,7 @@ const cardData = [
     color: "#190408",
     title: "Who I Am",
     label:
-      "• Frontend Engineer\n• Motion-driven UI & smooth interactions\n• Clean, premium digital design",
+      "• Full Stack MERN Web Developer\n• Motion-driven UI & smooth interactions\n• Clean, premium digital design",
   },
   {
     color: "#190408",
@@ -31,13 +31,13 @@ const cardData = [
     color: "#190408",
     title: "My Story",
     label:
-      "• Started with a curiosity for design and clean visual structure\n• Learned frontend fundamentals and built interfaces from scratch\n• Transitioned into React & Next.js for scalable, modern workflows\n• Developed a deep interest in motion design & interaction-driven UI\n• Focused on micro-interactions that elevate product feel\n• Studied modern design systems and component-based architecture\n• Learned to balance aesthetics with performance and responsiveness\n• Now dedicated to crafting refined, high-performance digital experiences",
+      "• Started with C, building a strong foundation in programming logic\n• Strengthened problem-solving through DSA in C\n• Advanced into Java, mastering OOP and Java-based DSA\n• Expanded skills into Full-Stack Web Development (MERN)\n• Built real-world apps using React, Node.js, Express & MongoDB\n• Explored Python to broaden technical versatility\n• Focused on writing clean, efficient, and scalable code\n• Continuously evolving as a full-stack-oriented developer",
   },
   {
     color: "#190408",
     title: "Interests",
     label:
-      "• Modern UI systems with consistent visual rhythm\n• Motion-led UX with smooth, expressive interactions\n• Minimal, premium digital aesthetics inspired by top-tier SaaS\n• Creating interfaces that feel fast, polished, and intentional\n• Subtle micro-interactions that enhance user experience\n• High-performance frontend engineering & clean architecture\n• Exploring advanced animation workflows and visual storytelling",
+      "• Artificial Intelligence & Machine Learning for real-world problem solving\n• Data Structures & Algorithms with a focus on efficiency and optimization\n• Full-Stack Web Development using modern frameworks and tools\n• Java for object-oriented design and scalable backend systems\n• Python for AI/ML workflows, automation, and rapid development\n• Writing clean, maintainable, and performance-oriented code\n• Building systems that balance logic, scalability, and usability\n• Continuous learning and growth in software engineering\n"
   },
   {
     color: "#190408",

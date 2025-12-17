@@ -115,7 +115,7 @@ export default function PremiumAbout() {
           <div className="mt-4 flex items-center gap-4">
             <h3 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
               I’m <span className="text-[#00d4ff]">Srinjoy</span>,
-              <span className="block font-medium text-gray-300 text-lg sm:text-xl mt-2">a CS student building premium web experiences.</span>
+              <span className="block font-medium text-gray-300 text-lg sm:text-xl mt-2">an IT student building premium web experiences.</span>
             </h3>
           </div>
 
@@ -135,7 +135,7 @@ export default function PremiumAbout() {
               <span className="inline-flex items-center justify-center w-9 h-9 rounded-md bg-white/6">
                 🚀
               </span>
-              <span className="text-gray-300">Mastering full-stack development & UI animations (GSAP / Framer Motion)</span>
+              <span className="text-gray-300">Mastering full-stack development</span>
             </li>
 
             <li className="about-bullet flex items-start gap-3">
