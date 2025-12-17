@@ -17,10 +17,10 @@ export default function Footer() {
             </h2>
             <div className="flex flex-wrap gap-4">
               <a
-                href="mailto:faisalshahzaman8@gmail.com"
+                href="mailto:srinjoymahanti@gmail.com"
                 className="px-8 py-4 rounded-full bg-white text-black font-[anzo3] text-lg flex items-center gap-3 hover:bg-[#00d4ff] hover:text-white transition-all duration-300"
               >
-                <span>faisalshahzaman8@gmail.com</span>
+                <span>srinjoymahanti@gmail.com</span>
                 <ArrowUpRight size={20} />
               </a>
             </div>
@@ -35,7 +35,7 @@ export default function Footer() {
               <div className="flex flex-col gap-4">
                 <h4 className="text-white font-[anzo3] uppercase tracking-wider text-sm opacity-50">Socials</h4>
                 <SocialLink href="https://x.com/Shahahahzaman" label="Twitter" />
-                <SocialLink href="https://www.linkedin.com/in/shahzaman-faisal-b937b2287/" label="LinkedIn" />
+                <SocialLink href="https://www.linkedin.com/in/srinjoy-mahanti-6168b5306/" label="LinkedIn" />
                 <SocialLink href="https://instagram.com/shahzaman_.23" label="Instagram" />
                 <SocialLink href="https://github.com/Shahzaman3" label="Github" />
               </div>

@@ -70,7 +70,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                                                             const subject = formData.get('subject');
                                                             const message = formData.get('message');
 
-                                                            const mailtoLink = `mailto:shahzaman.faisal.23@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+                                                            const mailtoLink = `mailto:srinjoymahanti@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
                                                             window.location.href = mailtoLink;
                                                             onClose();
                                                       }}>

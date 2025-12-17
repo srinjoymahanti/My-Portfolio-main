@@ -15,7 +15,7 @@ export default function Landing() {
     distortion: "mountainDistortion",
 
     length: 600,
-    roadWidth: 9,
+    roadWidth: 12,
     islandWidth: 2,
     lanesPerRoad: 4,
 
@@ -48,10 +48,12 @@ export default function Landing() {
     carFloorSeparation: [0.02, 0.6],
 
     colors: {
-      roadColor: 0x050507,
+      // roadColor: 0x050507,
+       roadColor: 0x0a0a23,
       islandColor: 0x0a0a12,
       background: 0x000000,
-      shoulderLines: 0x1f1fff,
+      // shoulderLines: 0x1f1fff,
+      shoulderLines: 0x00d4ff,
       brokenLines: 0x1f1fff,
 
       // 🔴 Neon red traffic
@@ -79,7 +81,7 @@ export default function Landing() {
           
           <div className="w-full h-[200px] md:h-[300px] relative">
              <TextPressure
-                text="SRINJOYMHANTI"
+                text="SRINJOY MAHANTI"
                 flex={true}
                 alpha={false}
                 stroke={false}
@@ -87,7 +89,7 @@ export default function Landing() {
                 weight={true}
                 italic={true}
                 textColor="#ffffff"
-                strokeColor="#ff0000"
+                strokeColor="#00d4ff"
                 minFontSize={36}
               />
           </div>
