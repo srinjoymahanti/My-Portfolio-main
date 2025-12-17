@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import About from "./pages/About";
 import Loader from "./components/Loader";
 import Landing from "./pages/Landing";
 import AboutMe from "./pages/AboutMe";
@@ -27,7 +28,10 @@ const App = () => {
             <div id="home">
               <Landing />
             </div>
-            <div id="about">
+             <div id="about">
+              <About />  
+            </div>
+            <div id="aboutme">
               <AboutMe />
             </div>
             <div id="skills">

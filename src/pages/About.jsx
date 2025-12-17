@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
+import ProfilePhoto2 from "../assets/ProfilePhoto2.png";
 
 // Premium About component
 // Theme: dark (black) with accent #00d4ff
@@ -97,7 +98,7 @@ export default function PremiumAbout() {
   return (
     <section
       ref={rootRef}
-      className="w-full bg-black text-white px-6 sm:px-8 lg:px-16 py-16 md:py-24 overflow-hidden"
+      className="w-full bg-[#0F0005] text-white px-6 sm:px-8 lg:px-16 py-16 md:py-24 overflow-hidden"
       aria-labelledby="about-heading"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative">
@@ -183,14 +184,11 @@ export default function PremiumAbout() {
             {/* Inner card */}
             <div className="w-full h-full rounded-xl bg-gradient-to-b from-black to-[#0b0b0b] overflow-hidden flex flex-col">
               <div className="flex-1 flex items-center justify-center">
-                <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="160" height="160" rx="20" fill="#0b0b0b" />
-                  <g>
-                    <circle cx="80" cy="56" r="28" fill="#111" stroke="#00d4ff" strokeWidth="2" />
-                    <rect x="36" y="96" width="88" height="34" rx="8" fill="#111" stroke="#222" />
-                    <path d="M44 128c10-8 30-12 52-12s42 4 52 12" stroke="#222" strokeWidth="2" strokeLinecap="round" />
-                  </g>
-                </svg>
+                <img
+                  src={ProfilePhoto2}
+                  alt="Srinjoy"
+                  className="w-full h-full object-cover rounded-xl"
+                />
               </div>
               <div className="px-5 py-4 border-t border-white/6">
                 <div className="flex items-center justify-between">
