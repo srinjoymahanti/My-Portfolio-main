@@ -187,7 +187,7 @@ export default function PremiumAbout() {
                 <img
                   src={ProfilePhoto2}
                   alt="Srinjoy"
-                  className="w-full h-full object-cover rounded-xl"
+                  className="w-100 h-100 object-cover rounded-xl"
                 />
               </div>
               <div className="px-5 py-4 border-t border-white/6">
