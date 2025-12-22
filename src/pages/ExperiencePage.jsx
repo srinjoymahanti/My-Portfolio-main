@@ -15,9 +15,9 @@ const experiences = [
     color: "#00d4ff",
   },
   {
-    company: "HACK8ON 1.0",
+    company: "HackNITR 7.0",
     role: "Web Developer",
-    period: "2025",
+    period: "January 2026",
     description:
       "Secured the Top 10 position by developing a responsive and user-friendly website focusing on real world problem and its solution.",
     tags: ["Prototyping", "FullStack", "JavaScript", "Learning"],
