@@ -6,12 +6,12 @@ import SectionWrapper from "../components/SectionWrapper";
 
 const experiences = [
   {
-    company: "Rittz Digital",
-    role: "FrontEnd Intern",
-    period: "July — September 2025",
+    company: "Smart India Hackathon 2025",
+    role: "Web Developer",
+    period: "September 2025",
     description:
-      "Started the journey into digital craftsmanship. Prototyped micro-interactions and assisted in building responsive layouts for e-commerce clients. Specialized in GSAP animations and performance optimization.",
-    tags: ["React", "GSAP", "System Architecture", "Internship"],
+      "Developed a user-focused solution at SIH 2025 addressing a real-world challenge.",
+    tags: ["React", "GSAP", "System Architecture", "Presentation"],
     color: "#00d4ff",
   },
   {
@@ -23,15 +23,15 @@ const experiences = [
     tags: ["Prototyping", "FullStack", "JavaScript", "Learning"],
     color: "#a822ff",
   },
-  {
-    company: "NSU TECH UTSAV 3.0",
-    role: "Creative Developer",
-    period: "2025",
-    description:
-      "Secured 1st place by developing an innovative project under tight deadlines.",
-    tags: ["Creative Dev", "GSAP", "Responsive Design", "Interaction Design"],
-    color: "#22d3ff",
-  }
+  // {
+  //   company: "NSU TECH UTSAV 3.0",
+  //   role: "Creative Developer",
+  //   period: "2025",
+  //   description:
+  //     "Secured 1st place by developing an innovative project under tight deadlines.",
+  //   tags: ["Creative Dev", "GSAP", "Responsive Design", "Interaction Design"],
+  //   color: "#22d3ff",
+  // }
 ];
 
 export default function ExperiencePage() {
